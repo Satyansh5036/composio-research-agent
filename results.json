@@ -1,0 +1,1609 @@
+[
+  {
+    "id": 1,
+    "name": "Salesforce",
+    "hint": "salesforce.com",
+    "category": "CRM and Sales",
+    "oneLiner": "Salesforce is a comprehensive cloud-based platform that provides customer relationship management (CRM) and sales solutions, along with extensive tools for service, marketing, analytics, and custom application development.",
+    "authMethods": [
+      "OAuth2",
+      "Basic",
+      "Other"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "Salesforce offers a broad range of APIs, including REST, SOAP, Bulk, Metadata, Connect REST, Tooling, UI, and Analytics APIs, allowing programmatic access to data and functionality for operations like CRUD, invoking custom actions, and integrating with external systems.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developer.salesforce.com/docs/",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T04:53:25.295Z"
+  },
+  {
+    "id": 2,
+    "name": "HubSpot",
+    "hint": "hubspot.com",
+    "category": "CRM and Sales",
+    "oneLiner": "HubSpot is a comprehensive CRM and sales platform that offers extensive REST APIs and webhooks for managing customer relationships, sales, marketing, and customer service, allowing for deep integration and customization.",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "Broad REST API with date-based versioning (e.g., 2026-03), covering core CRM objects (Contacts, Companies, Deals, Tickets), marketing, sales, service, and CMS functionalities, with extensive endpoints and webhook support.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developers.hubspot.com/docs/api/overview",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T04:53:41.350Z"
+  },
+  {
+    "id": 3,
+    "name": "Pipedrive",
+    "hint": "pipedrive.com",
+    "category": "CRM and Sales",
+    "oneLiner": "Pipedrive is a cloud-based sales CRM platform designed to help businesses manage sales pipelines, track customer relationships, and automate sales processes.",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "paid plan required",
+    "apiSurface": "Broad RESTful API covering core CRM entities like deals, leads, organizations, activities, and notes, with both v1 and v2 available and OpenAPI specifications.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developers.pipedrive.com",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T04:54:00.672Z"
+  },
+  {
+    "id": 4,
+    "name": "Attio",
+    "hint": "attio.com",
+    "category": "CRM and Sales",
+    "oneLiner": "Attio is a customizable, data-driven CRM platform that enables developers to build integrations, automations, and data pipelines using its REST API, App SDK, and AI-centric Managed Control Plane (MCP).",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "broad REST, many endpoints covering objects like companies, persons, deals, users, workspaces, and custom objects, with full read/write access and webhook support.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developers.attio.com/docs",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T04:54:19.541Z"
+  },
+  {
+    "id": 5,
+    "name": "Twenty",
+    "hint": "twenty.com (open-source CRM)",
+    "category": "CRM and Sales",
+    "oneLiner": "Twenty is an open-source, highly customizable CRM offering both self-hosted and cloud options, featuring robust REST and GraphQL APIs, webhooks, and an \"Apps\" framework to build custom extensions, including AI agents and skills.",
+    "authMethods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "Comprehensive REST and GraphQL APIs are available for both Core CRM data (e.g., people, companies, opportunities, custom objects) and Metadata (e.g., schema management, custom fields). The API is dynamically generated based on the workspace schema, ensuring broad coverage. It supports batch operations and provides real-time updates via GraphQL subscriptions and webhooks.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://docs.twenty.com/developers",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T04:54:36.792Z"
+  },
+  {
+    "id": 6,
+    "name": "Podio",
+    "hint": "podio.com",
+    "category": "CRM and Sales",
+    "oneLiner": "Podio is a customizable work management and collaboration platform that allows teams to build tailored applications, automate workflows, and manage projects and CRM activities without coding.",
+    "authMethods": [
+      "OAuth2"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "broad REST API, providing a complete programmable interface to all Podio functionality, including interactions with items, tasks, files, and webhooks.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "http://developers.podio.com",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T04:54:51.188Z"
+  },
+  {
+    "id": 7,
+    "name": "Zoho CRM",
+    "hint": "zoho.com/crm",
+    "category": "CRM and Sales",
+    "oneLiner": "Zoho CRM is a comprehensive cloud-based CRM solution that helps businesses manage sales, marketing, and customer support, offering features like automation, analytics, and an AI assistant.",
+    "authMethods": [
+      "OAuth2"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "Zoho CRM offers a broad API surface primarily through RESTful endpoints for CRUD operations on CRM modules (e.g., Leads, Contacts, Deals), metadata, bulk actions, and notifications. It also provides GraphQL APIs, a Query API (COQL), and various SDKs.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://www.zoho.com/crm/developer/docs/",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T04:55:05.828Z"
+  },
+  {
+    "id": 8,
+    "name": "Close",
+    "hint": "close.com",
+    "category": "CRM and Sales",
+    "oneLiner": "Close is a robust CRM and sales platform designed for sales teams to streamline activities, manage leads, contacts, and opportunities, and automate outreach with built-in calling, SMS, email, and AI tools.",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "Broad REST API covering leads, contacts, opportunities, activities, custom fields, webhooks, and more, with an explicit Multi-Channel Protocol (MCP) server for AI agent integrations.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://www.close.com/developer/",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T04:55:19.620Z"
+  },
+  {
+    "id": 9,
+    "name": "Copper",
+    "hint": "copper.com",
+    "category": "CRM and Sales",
+    "oneLiner": "Copper is a CRM software designed for businesses using Google Workspace, offering lead and contact management, email tracking, and task automation to streamline customer relationship management.",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "broad REST, covers core CRM entities like accounts, users, leads, opportunities, companies, and activities with JSON-formatted responses.",
+    "mcpExists": false,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developer.copper.com/",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T04:55:36.977Z"
+  },
+  {
+    "id": 10,
+    "name": "DealCloud",
+    "hint": "api.docs.dealcloud.com",
+    "category": "CRM and Sales",
+    "oneLiner": "DealCloud is a preeminent CRM, deal management, and business development software for principal investing and M&A advisory professionals, offering comprehensive REST APIs for custom integrations, workflow automation, and advanced use cases.",
+    "authMethods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "selfServe": false,
+    "gateType": "admin approval required",
+    "apiSurface": "Broad REST API surface covering authentication, user management, schema, data manipulation (create, retrieve, update, delete records across various objects like deals, contacts, companies), backups, real-time event publications, and relationship intelligence. It provides both columnar (Cells) and record-based (Rows) views for data, and includes a Swagger page for API testing.",
+    "mcpExists": false,
+    "verdict": "possible with workaround",
+    "blocker": "API key generation requires an existing DealCloud account with system admin role access.",
+    "evidenceUrl": "https://api.docs.dealcloud.com",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T04:55:52.228Z"
+  },
+  {
+    "id": 11,
+    "name": "Zendesk",
+    "hint": "zendesk.com",
+    "category": "Support and Helpdesk",
+    "oneLiner": "Zendesk is a customer service and engagement platform offering tools for support, helpdesk, ticketing, and CRM, with extensive APIs for integration and custom development.",
+    "authMethods": [
+      "OAuth2",
+      "API Key",
+      "Basic"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "Broad REST API surface covering multiple products and capabilities including Ticketing, Help Center, Live Chat, Voice, Sales CRM, AI Agents, Messaging, and Custom Data, with Postman collections available for most APIs.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developer.zendesk.com/documentation/",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T04:56:06.627Z"
+  },
+  {
+    "id": 12,
+    "name": "Intercom",
+    "hint": "intercom.com",
+    "category": "Support and Helpdesk",
+    "oneLiner": "Intercom is an AI-powered customer service solution that enables businesses to facilitate personalized and timely communication with clients through various channels, and allows developers to extend its functionality via APIs and SDKs.",
+    "authMethods": [
+      "OAuth2",
+      "API Key",
+      "Token"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "broad REST, with extensive endpoints for managing users, leads, conversations, articles, tickets, and AI content, including a dedicated Fin Agent API. The API is auto-generated from an OpenAPI specification, indicating a well-defined and broad surface.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developers.intercom.com/",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T04:56:22.986Z"
+  },
+  {
+    "id": 13,
+    "name": "Freshdesk",
+    "hint": "freshdesk.com",
+    "category": "Support and Helpdesk",
+    "oneLiner": "Freshdesk is a cloud-based customer support platform that provides a ticketing system, automated workflows, a knowledge base, and self-service portals to enable companies to provide great customer service.",
+    "authMethods": [
+      "API Key",
+      "Basic"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "broad REST, with numerous endpoints for managing tickets, conversations, agents, time entries, ticket forms, and more.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://freshdesk.com/api",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T04:56:42.154Z"
+  },
+  {
+    "id": 14,
+    "name": "Front",
+    "hint": "front.com",
+    "category": "Support and Helpdesk",
+    "oneLiner": "Front is an AI-powered customer operations platform that centralizes customer communication across multiple channels into a collaborative workspace, enabling teams to manage and automate customer interactions.",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "broad REST, covering core entities like conversations, contacts, inboxes, and channels, with dedicated APIs (Core API, Channels API) for extensive read/write operations and custom channel creation. An OpenAPI spec is available for the Channel API.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://dev.frontapp.com/docs/introduction",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T04:56:59.065Z"
+  },
+  {
+    "id": 15,
+    "name": "Pylon",
+    "hint": "usepylon.com",
+    "category": "Support and Helpdesk",
+    "error": "{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 23.940178034s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"23s\"}]}}",
+    "researchedAt": "2026-07-09T04:57:36.084Z"
+  },
+  {
+    "id": 16,
+    "name": "LiveAgent",
+    "hint": "liveagent.com",
+    "category": "Support and Helpdesk",
+    "error": "{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 46.164975598s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"46s\"}]}}",
+    "researchedAt": "2026-07-09T04:58:13.986Z"
+  },
+  {
+    "id": 17,
+    "name": "Plain",
+    "hint": "plain.com",
+    "category": "Support and Helpdesk",
+    "error": "{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 8.423221542s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"8s\"}]}}",
+    "researchedAt": "2026-07-09T04:58:51.650Z"
+  },
+  {
+    "id": 18,
+    "name": "Help Scout",
+    "hint": "helpscout.com",
+    "category": "Support and Helpdesk",
+    "error": "{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 31.296292603s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"31s\"}]}}",
+    "researchedAt": "2026-07-09T04:59:28.728Z"
+  },
+  {
+    "id": 19,
+    "name": "Gorgias",
+    "hint": "gorgias.com",
+    "category": "Support and Helpdesk",
+    "error": "{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 54.883170399s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"54s\"}]}}",
+    "researchedAt": "2026-07-09T05:00:05.140Z"
+  },
+  {
+    "id": 20,
+    "name": "Gladly",
+    "hint": "gladly.com",
+    "category": "Support and Helpdesk",
+    "error": "{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 17.734471277s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"17s\"}]}}",
+    "researchedAt": "2026-07-09T05:00:42.297Z"
+  },
+  {
+    "id": 21,
+    "name": "Slack",
+    "hint": "slack.com",
+    "category": "Communications and Messaging",
+    "error": "{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 40.643211605s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-2.5-flash\",\"location\":\"global\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"40s\"}]}}",
+    "researchedAt": "2026-07-09T05:01:19.426Z"
+  },
+  {
+    "id": 22,
+    "name": "Twilio",
+    "hint": "twilio.com",
+    "category": "Communications and Messaging",
+    "error": "{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 3.262125121s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"3s\"}]}}",
+    "researchedAt": "2026-07-09T05:01:56.764Z"
+  },
+  {
+    "id": 23,
+    "name": "Zoho Cliq",
+    "hint": "zoho.com/cliq",
+    "category": "Communications and Messaging",
+    "error": "{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 26.333653251s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"26s\"}]}}",
+    "researchedAt": "2026-07-09T05:02:33.690Z"
+  },
+  {
+    "id": 24,
+    "name": "Lark (Larksuite)",
+    "hint": "open.larksuite.com",
+    "category": "Communications and Messaging",
+    "error": "{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 48.962907422s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"48s\"}]}}",
+    "researchedAt": "2026-07-09T05:03:11.057Z"
+  },
+  {
+    "id": 25,
+    "name": "Pumble",
+    "hint": "pumble.com",
+    "category": "Communications and Messaging",
+    "error": "{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 11.414027897s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"11s\"}]}}",
+    "researchedAt": "2026-07-09T05:03:48.607Z"
+  },
+  {
+    "id": 26,
+    "name": "Discord",
+    "hint": "discord.com",
+    "category": "Communications and Messaging",
+    "error": "{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 34.669897637s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"34s\"}]}}",
+    "researchedAt": "2026-07-09T05:04:25.354Z"
+  },
+  {
+    "id": 27,
+    "name": "Telegram",
+    "hint": "core.telegram.org",
+    "category": "Communications and Messaging",
+    "error": "{\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 57.371144831s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-2.5-flash\"},\"quotaValue\":\"20\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"57s\"}]}}",
+    "researchedAt": "2026-07-09T05:05:02.652Z"
+  },
+  {
+    "id": 28,
+    "name": "WhatsApp Business",
+    "hint": "developers.facebook.com/docs/whatsapp",
+    "category": "Communications and Messaging",
+    "error": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+    "researchedAt": "2026-07-09T07:04:21.660Z"
+  },
+  {
+    "id": 29,
+    "name": "Aircall",
+    "hint": "aircall.io",
+    "category": "Communications and Messaging",
+    "error": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+    "researchedAt": "2026-07-09T07:04:21.703Z"
+  },
+  {
+    "id": 30,
+    "name": "Vonage",
+    "hint": "developer.vonage.com",
+    "category": "Communications and Messaging",
+    "error": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+    "researchedAt": "2026-07-09T07:04:21.703Z"
+  },
+  {
+    "id": 31,
+    "name": "Google Ads",
+    "hint": "developers.google.com/google-ads",
+    "category": "Marketing, Ads, Email and Social",
+    "error": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+    "researchedAt": "2026-07-09T07:04:21.703Z"
+  },
+  {
+    "id": 32,
+    "name": "Meta Ads",
+    "hint": "developers.facebook.com/docs/marketing-apis",
+    "category": "Marketing, Ads, Email and Social",
+    "error": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+    "researchedAt": "2026-07-09T07:04:21.703Z"
+  },
+  {
+    "id": 33,
+    "name": "LinkedIn Ads",
+    "hint": "learn.microsoft.com/linkedin/marketing",
+    "category": "Marketing, Ads, Email and Social",
+    "error": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+    "researchedAt": "2026-07-09T07:04:21.703Z"
+  },
+  {
+    "id": 34,
+    "name": "GoHighLevel",
+    "hint": "highlevel.stoplight.io",
+    "category": "Marketing, Ads, Email and Social",
+    "error": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+    "researchedAt": "2026-07-09T07:04:21.703Z"
+  },
+  {
+    "id": 35,
+    "name": "Mailchimp",
+    "hint": "mailchimp.com/developer",
+    "category": "Marketing, Ads, Email and Social",
+    "error": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+    "researchedAt": "2026-07-09T07:04:21.703Z"
+  },
+  {
+    "id": 36,
+    "name": "Klaviyo",
+    "hint": "developers.klaviyo.com",
+    "category": "Marketing, Ads, Email and Social",
+    "error": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+    "researchedAt": "2026-07-09T07:04:21.703Z"
+  },
+  {
+    "id": 37,
+    "name": "systeme.io",
+    "hint": "systeme.io (funnel builder)",
+    "category": "Marketing, Ads, Email and Social",
+    "error": "{\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}",
+    "researchedAt": "2026-07-09T07:04:21.703Z"
+  },
+  {
+    "id": 38,
+    "name": "Pinterest",
+    "hint": "developers.pinterest.com",
+    "category": "Marketing, Ads, Email and Social",
+    "oneLiner": "Pinterest is a social media platform that provides a REST API for accessing pins, boards, ads, catalogs and related resources.",
+    "authMethods": [
+      "OAuth2"
+    ],
+    "selfServe": true,
+    "gateType": "admin approval required",
+    "apiSurface": "REST API covering pins, boards, ads, catalogs, and user accounts. It allows for managing content and advertising campaigns.",
+    "mcpExists": true,
+    "verdict": "blocked",
+    "blocker": "Production access for apps requires an approval process.",
+    "evidenceUrl": "https://developers.pinterest.com/docs/api/v5/",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:05:17.831Z"
+  },
+  {
+    "id": 39,
+    "name": "Threads (Meta)",
+    "hint": "developers.facebook.com/docs/threads",
+    "category": "Marketing, Ads, Email and Social",
+    "oneLiner": "The Threads API enables developers, brands, and creators to programmatically manage their Threads presence, publish content, and track performance metrics.",
+    "authMethods": [
+      "OAuth2"
+    ],
+    "selfServe": true,
+    "gateType": "admin approval required",
+    "apiSurface": "Graph API for publishing posts, retrieving media, managing replies, and viewing insights. Covers profile information and engagement data.",
+    "mcpExists": true,
+    "verdict": "blocked",
+    "blocker": "Production access for apps requires Meta App Review and specific account types (e.g., Instagram Business Account).",
+    "evidenceUrl": "https://developers.facebook.com/docs/threads/getting-started",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:05:17.831Z"
+  },
+  {
+    "id": 40,
+    "name": "SendGrid",
+    "hint": "sendgrid.com",
+    "category": "Marketing, Ads, Email and Social",
+    "oneLiner": "SendGrid is a cloud-based email platform that provides email delivery services for transactional and marketing emails.",
+    "authMethods": [
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "Comprehensive REST API for sending emails, managing contacts, templates, and analytics.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://docs.sendgrid.com/api-reference",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:05:17.833Z"
+  },
+  {
+    "id": 41,
+    "name": "Shopify",
+    "hint": "shopify.dev",
+    "category": "Ecommerce",
+    "oneLiner": "Shopify is an e-commerce platform that allows businesses to create online stores and manage their sales, products, and customers.",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "paid plan required",
+    "apiSurface": "Extensive REST and GraphQL APIs for managing products, orders, customers, inventory, payments, and storefronts.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://shopify.dev/docs/api/admin-rest",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:05:17.834Z"
+  },
+  {
+    "id": 42,
+    "name": "WooCommerce",
+    "hint": "woocommerce.com/document/woocommerce-rest-api",
+    "category": "Ecommerce",
+    "oneLiner": "WooCommerce is an open-source e-commerce plugin for WordPress, enabling users to create and manage online stores.",
+    "authMethods": [
+      "OAuth1",
+      "Basic"
+    ],
+    "selfServe": true,
+    "gateType": "free self-serve",
+    "apiSurface": "Comprehensive REST API for managing products, orders, customers, and coupons within a WooCommerce store.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://woocommerce.com/document/woocommerce-rest-api/",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:05:17.834Z"
+  },
+  {
+    "id": 43,
+    "name": "BigCommerce",
+    "hint": "developer.bigcommerce.com",
+    "category": "Ecommerce",
+    "oneLiner": "BigCommerce is a robust, open SaaS e-commerce platform that provides businesses with tools to build, manage, and scale their online stores.",
+    "authMethods": [
+      "OAuth2",
+      "API Key",
+      "Token"
+    ],
+    "selfServe": true,
+    "gateType": "paid plan required",
+    "apiSurface": "Extensive REST and GraphQL APIs (Storefront API, Management API, Webhooks) covering products, orders, customers, categories, and payments.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developer.bigcommerce.com/api-docs",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:05:17.835Z"
+  },
+  {
+    "id": 44,
+    "name": "Salesforce Commerce Cloud",
+    "hint": "developer.salesforce.com/docs/commerce",
+    "category": "Ecommerce",
+    "oneLiner": "Salesforce Commerce Cloud is an enterprise-grade e-commerce platform offering comprehensive solutions for managing online storefronts, customer experiences, and global retail operations.",
+    "authMethods": [
+      "OAuth2"
+    ],
+    "selfServe": false,
+    "gateType": "partner/contact-sales gated",
+    "apiSurface": "Wide range of RESTful APIs (Shop API, Data API, Open Commerce API) for storefront operations, data management, and integrations.",
+    "mcpExists": true,
+    "verdict": "blocked",
+    "blocker": "Enterprise-level product requiring specific contracts or partnerships for API access.",
+    "evidenceUrl": "https://developer.salesforce.com/docs/commerce/commerce-api/overview",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:05:17.835Z"
+  },
+  {
+    "id": 45,
+    "name": "Magento (Adobe Commerce)",
+    "hint": "developer.adobe.com/commerce",
+    "category": "Ecommerce",
+    "oneLiner": "Magento, now known as Adobe Commerce, is a powerful e-commerce platform that offers flexible solutions for building and managing online stores.",
+    "authMethods": [
+      "OAuth1",
+      "Token"
+    ],
+    "selfServe": true,
+    "gateType": "paid plan required",
+    "apiSurface": "Extensive REST and GraphQL APIs for managing products, orders, customers, inventory, and various aspects of an e-commerce store.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developer.adobe.com/commerce/webapi/rest/",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:05:17.836Z"
+  },
+  {
+    "id": 46,
+    "name": "Squarespace",
+    "hint": "developers.squarespace.com",
+    "category": "Ecommerce",
+    "oneLiner": "Squarespace is a popular website builder that offers tools for creating professional websites, online stores, portfolios, and blogs with integrated design and e-commerce functionalities.",
+    "authMethods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "selfServe": true,
+    "gateType": "paid plan required",
+    "apiSurface": "REST APIs for orders, inventory, and products, along with GraphQL APIs for customer profiles and commerce operations.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developers.squarespace.com/commerce-api/api-overview",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:05:17.836Z"
+  },
+  {
+    "id": 47,
+    "name": "Ecwid",
+    "hint": "api-docs.ecwid.com",
+    "category": "Ecommerce",
+    "oneLiner": "Ecwid is an e-commerce platform designed to easily add an online store to any existing website, blog, or social media profile, providing tools for product management, orders, and payments.",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API for managing products, orders, customers, categories, and more, offering comprehensive e-commerce operations.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://api-docs.ecwid.com/",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:05:17.837Z"
+  },
+  {
+    "id": 48,
+    "name": "Gumroad",
+    "hint": "gumroad.com/api",
+    "category": "Ecommerce",
+    "oneLiner": "Gumroad's API exposes core resources for creators to sell digital products, courses, memberships, and software licenses, and manage sales, subscribers, and webhooks.",
+    "authMethods": [
+      "Token"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API with 26 endpoints covering product creation and management, offer codes, license key generation and verification, sales and subscriber lookups, custom fields, and webhooks.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWY0Gh1WLGII1_55Rg7v3FFa7dcnyXLlrbThcwEJQXNyIvr8Mi4z6JCfqI2h_SHJFmNGBglAtAogo_qtFh6bYzHvAUmfO6djovZa1iLQXPyVRP4NQg9yoNnmE=",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:06:17.046Z"
+  },
+  {
+    "id": 49,
+    "name": "Amazon Selling Partner",
+    "hint": "developer-docs.amazon.com/sp-api",
+    "category": "Ecommerce",
+    "oneLiner": "The Amazon Selling Partner API (SP-API) is a REST-based API that helps Amazon sellers and vendors programmatically access their data for orders, shipments, payments, and much more, enabling automation and integration with Amazon's marketplace.",
+    "authMethods": [
+      "OAuth2"
+    ],
+    "selfServe": true,
+    "gateType": "admin approval required",
+    "apiSurface": "REST-based API with extensive endpoints covering listings, orders, shipments, payments, reports, inventory, and more.",
+    "mcpExists": true,
+    "verdict": "possible with workaround",
+    "blocker": "Admin approval / developer registration process for full access.",
+    "evidenceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAD-knOYXDP6tPjD3inWmkA1OvU_XNdK5L6VzKCD-EHk5NjNE5pbaI1a3p93qbfaJ0U9OaEjjUMuubwu-XkUC8LHIhOcoggBX2DmHJxPd1NDNP-7upsu3Jw09kYUI26bU=",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:06:17.046Z"
+  },
+  {
+    "id": 50,
+    "name": "fanbasis",
+    "hint": "fanbasis.com",
+    "category": "Ecommerce",
+    "oneLiner": "FanBasis offers a complete API for managing checkout sessions, webhooks, customers, subscriptions, and discount codes for digital content, creator memberships, and software, and provides enterprise payment orchestration and multi-rail payouts.",
+    "authMethods": [
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "partner/contact-sales gated",
+    "apiSurface": "REST API with endpoints covering checkout sessions, webhooks, customers, subscriptions, discount codes, payments, and payouts.",
+    "mcpExists": true,
+    "verdict": "possible with workaround",
+    "blocker": "Enterprise/contact-sales gated access model.",
+    "evidenceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjxx5CrKR0WjZZqxOIx-tRc1s8Kleqn07mYhXOKpSlGZoUglhGflH_17iq-W8EUjylXod-ecyij-XHzpWNQa70XeoheFgxPo9BtYUiD6yKpgMUJ1lj5SxD8e2-6yGA-w=",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:06:17.047Z"
+  },
+  {
+    "id": 51,
+    "name": "DataForSEO",
+    "hint": "docs.dataforseo.com",
+    "category": "Data, SEO and Scraping",
+    "oneLiner": "DataForSEO provides a comprehensive API stack for SEO and SEM, offering programmatic access to vast amounts of data including SERP results, keyword metrics, backlinks, and advertising data.",
+    "authMethods": [
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "paid plan required",
+    "apiSurface": "Extensive REST API covering various SEO and SEM data points: Google/Bing SERP, Google/Bing Ads, Google Trends, Keyword Data, Backlinks, On-page, etc.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs3xYROBvbriN3thE-xf5BgDe6_w-43mBNf7xVc78iErvz6mz6OJNzs_xMYOxcl0FO41EFYabL49LD3aEjOqqwXcgxP0utJz1VMfsbC6gAnokR",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:06:17.047Z"
+  },
+  {
+    "id": 52,
+    "name": "SE Ranking",
+    "hint": "seranking.com/api",
+    "category": "Data, SEO and Scraping",
+    "oneLiner": "SE Ranking offers Data API for pulling raw SEO and marketing data (keywords, backlinks, domain data) and Project API for automating and managing SEO projects.",
+    "authMethods": [
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API with endpoints for Keyword Research (metrics, discovery), Backlinks (summary, lists, historical), Domain Data, On-page, Competitive Research, and Project Management.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFr3ThtTEUe8ivlBXNAZ4KZKnnHB-GveXbY6ZF2_HyaXifwsVEF8iNKkL8dVBqPGVDLwpZfhVYRX5E3GYz3ZiDiaOgMwEc_7o_jBMamLrDKGahc73Bgd85SGH5f16wq8Tg7TgT",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:06:17.047Z"
+  },
+  {
+    "id": 53,
+    "name": "Ahrefs",
+    "hint": "ahrefs.com/api",
+    "category": "Data, SEO and Scraping",
+    "oneLiner": "Ahrefs API v3 provides programmatic access to a wide range of SEO data, including organic and backlinks data from Site Explorer, keyword metrics from Keywords Explorer, Google SERP data, and data from user's Rank Tracker and Site Audit projects.",
+    "authMethods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "selfServe": true,
+    "gateType": "paid plan required",
+    "apiSurface": "REST API (v3) with 105 API methods covering Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Batch Analysis, Social Media Management, and Subscription information.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV9Pl6eXYrnxX0EX4xlFNy78lx7TbVsIG3hpIwNv7dPXQJGgmy8TC5sB5pfKTzBK-eD2tyT7_IopVWZvVJeUnWMqPaA8rrNffuS1u65a-gkg3dT-6KZ6Qq_QaRRoZRSba-_JA4NTeh-s6etA==",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:06:17.047Z"
+  },
+  {
+    "id": 54,
+    "name": "MrScraper",
+    "hint": "docs.mrscraper.com",
+    "category": "Data, SEO and Scraping",
+    "oneLiner": "MrScraper is an AI-powered web scraping platform that allows users to extract structured data from websites using natural language prompts, offering a Web Scraper API with features like rotating proxies and anti-bot handling.",
+    "authMethods": [
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API designed to run AI-powered scrapers, extract data, and handle web content, supporting single-page and multi-page scraping.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3KAOaMu97xSEKGJ5xMgu0mswxflpmB_NtCVLuRqC0BFA2eNAgPkkNJeOVpXeF_taXwf8WZ_TVXXHNSTGMlPaaZ9u8OzQO6gMUQtKQ3b7vqdDuN7WwU9oUqYF5Z4fwewXABzGxzMXC",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:06:17.047Z"
+  },
+  {
+    "id": 55,
+    "name": "Apify",
+    "hint": "docs.apify.com",
+    "category": "Data, SEO and Scraping",
+    "oneLiner": "Apify is a platform that provides programmatic access to its tools for web scraping and automation, allowing users to run Actors, manage datasets, and interact with webhooks via a REST API.",
+    "authMethods": [
+      "Token"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API (version 2) providing programmatic access to Actors, datasets, key-value stores, and webhooks, with an OpenAPI schema available.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgnO8OGERiE6sfaaZ4W-rWQj1w-XH7vsJwXjpw5Aob3y-_O6r4lqgW0aShpJZVaOlNz7bbCUkjK1VjlzxGGIDU4MiPgcs0xm9UxgVVHSDVwYkRaSaYQCBN",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:06:17.048Z"
+  },
+  {
+    "id": 56,
+    "name": "Firecrawl",
+    "hint": "firecrawl.dev",
+    "category": "Data, SEO and Scraping",
+    "oneLiner": "Firecrawl is an API service that scrapes, crawls, and extracts structured data from any website, providing LLM-ready output for AI applications, and allows interaction with web content at scale.",
+    "authMethods": [
+      "API Key",
+      "Token"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API with endpoints for scraping single URLs, batch scraping, crawling multiple URLs, managing crawl jobs, and interacting with scraped pages, providing Markdown or structured data output.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJont9BfkXUJmxXe_1nXBl5M5j8q1-g0Gi1ETGINtIg6fVp3GMUSr594nIJOOKmi2AmOy-VDdqSnXDMn_YoGumuwCMra81nYhdgPf-Zjwc-iXtWIM8YcA2HU68bfsrHEQLcYsoCLJdTJ19OFL68oSlc2ilZsQaPBykquEff6o=",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:06:17.048Z"
+  },
+  {
+    "id": 57,
+    "name": "Bright Data",
+    "hint": "brightdata.com",
+    "category": "Data, SEO and Scraping",
+    "oneLiner": "Bright Data is a web data platform offering a proxy network, 700+ pre-built scrapers, datasets, and AI-ready APIs for collecting, processing, and scaling access to public web data.",
+    "authMethods": [
+      "API Key",
+      "Token"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "Extensive REST APIs including Web Access APIs (covering 700+ scrapers), Crawl API, SERP API, Browser API, and Social Media APIs.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENZ-1MywpU8NaJi2Op8_JJpLHwNukPFjJz_uTqp7zf5NgK6WVdCI-pkkWTTUDTSIQEdlk1ZHtuacMj68BOckCddhoh4drapMS6S9xT3HHafbEoB7WI2afjCDh2C7TJ7Yn0sPY=",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:06:17.048Z"
+  },
+  {
+    "id": 58,
+    "name": "Sherlock",
+    "hint": "github.com/sherlock-project/sherlock",
+    "category": "Data, SEO and Scraping",
+    "oneLiner": "Sherlock is a Python command-line tool that finds usernames across many social networks.",
+    "authMethods": [],
+    "selfServe": true,
+    "gateType": "free self-serve",
+    "apiSurface": "CLI tool for searching usernames across social networks. Not a traditional REST/GraphQL API.",
+    "mcpExists": false,
+    "verdict": "possible with workaround",
+    "blocker": "Not a traditional API; requires executing a command-line interface.",
+    "evidenceUrl": "https://github.com/sherlock-project/sherlock",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:03.607Z"
+  },
+  {
+    "id": 59,
+    "name": "Waterfall.io",
+    "hint": "waterfall.io (contact/company intel)",
+    "category": "Data, SEO and Scraping",
+    "oneLiner": "Waterfall.io provides an API to find and enrich contacts, prospect by title and company, and verify emails.",
+    "authMethods": [
+      "API Key"
+    ],
+    "selfServe": false,
+    "gateType": "partner/contact-sales gated",
+    "apiSurface": "REST API for various contact and company intelligence operations, including finding and enriching contacts, prospecting, and email verification.",
+    "mcpExists": false,
+    "verdict": "blocked",
+    "blocker": "Requires an API key which is not clearly self-serve obtainable; likely partner/contact-sales gated.",
+    "evidenceUrl": "https://waterfall.io/api-documentation/introduction",
+    "confidence": "medium",
+    "researchedAt": "2026-07-09T07:07:03.607Z"
+  },
+  {
+    "id": 60,
+    "name": "Clay",
+    "hint": "clay.com",
+    "category": "Data, SEO and Scraping",
+    "oneLiner": "Clay is a data enrichment and automation platform that combines spreadsheets with web scraping and integrations.",
+    "authMethods": [],
+    "selfServe": false,
+    "gateType": "partner/contact-sales gated",
+    "apiSurface": "Undetermined; no public API documentation found.",
+    "mcpExists": false,
+    "verdict": "blocked",
+    "blocker": "No public API documentation readily available; likely no public API or enterprise-gated.",
+    "evidenceUrl": "N/A",
+    "confidence": "low",
+    "researchedAt": "2026-07-09T07:07:03.608Z"
+  },
+  {
+    "id": 61,
+    "name": "GitHub",
+    "hint": "docs.github.com/rest",
+    "category": "Developer, Infra and Data platforms",
+    "oneLiner": "GitHub provides a REST API for programmatic access to repositories, issues, pull requests, users, and webhooks, enabling code hosting and collaboration.",
+    "authMethods": [
+      "OAuth2",
+      "API Key",
+      "Token",
+      "Basic"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "Comprehensive REST API for managing various aspects of software development, including repositories, users, organizations, issues, pull requests, actions, packages, and more.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://docs.github.com/rest",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:03.608Z"
+  },
+  {
+    "id": 62,
+    "name": "Vercel",
+    "hint": "vercel.com/docs/rest-api",
+    "category": "Developer, Infra and Data platforms",
+    "oneLiner": "Vercel is a cloud platform for frontend developers, offering tools for deploying and scaling web applications, with a REST API for programmatic control.",
+    "authMethods": [
+      "Token",
+      "OAuth2"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API for deploying, managing projects, domains, and serverless functions on the Vercel platform.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://vercel.com/docs/rest-api",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:03.608Z"
+  },
+  {
+    "id": 63,
+    "name": "Netlify",
+    "hint": "docs.netlify.com/api",
+    "category": "Developer, Infra and Data platforms",
+    "oneLiner": "Netlify is a web developer platform that automates web projects from Git to global deployment, offering a REST API for programmatic control over sites and deploys.",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "Comprehensive REST API for managing sites, deploys, forms, functions, and other platform features.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://docs.netlify.com/api",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:03.608Z"
+  },
+  {
+    "id": 64,
+    "name": "Cloudflare",
+    "hint": "developers.cloudflare.com/api",
+    "category": "Developer, Infra and Data platforms",
+    "oneLiner": "Cloudflare provides a comprehensive suite of network services, including CDN, security, and DNS, with an extensive API for programmatic management.",
+    "authMethods": [
+      "API Key",
+      "OAuth2",
+      "Token"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "Very broad REST API covering DNS, CDN, security, Workers, Pages, Stream, and many other Cloudflare services.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developers.cloudflare.com/api",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:03.608Z"
+  },
+  {
+    "id": 65,
+    "name": "Supabase",
+    "hint": "supabase.com/docs",
+    "category": "Developer, Infra and Data platforms",
+    "oneLiner": "Supabase is an open-source Firebase alternative providing a PostgreSQL database, authentication, instant APIs, and other backend services, accessible via its API.",
+    "authMethods": [
+      "API Key",
+      "Token",
+      "OAuth2"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "Offers various APIs including a REST API for its PostgreSQL database (PostgREST), Realtime API, Auth API, Storage API, and Edge Functions.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://supabase.com/docs",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:03.608Z"
+  },
+  {
+    "id": 66,
+    "name": "Neo4j",
+    "hint": "neo4j.com/docs/api",
+    "category": "Developer, Infra and Data platforms",
+    "oneLiner": "Neo4j is a leading graph database platform that allows developers to model, store, and query connected data with native graph processing capabilities, offering various APIs for interaction.",
+    "authMethods": [
+      "API Key",
+      "Basic",
+      "OAuth2",
+      "Token",
+      "Other"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "Provides several APIs including the Cypher Query Language, Bolt Protocol, REST API (via HTTP API or Transactional Cypher Endpoint), and language drivers (e.g., for Python, Java).",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://neo4j.com/docs/api",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:03.608Z"
+  },
+  {
+    "id": 67,
+    "name": "Snowflake",
+    "hint": "docs.snowflake.com",
+    "category": "Developer, Infra and Data platforms",
+    "oneLiner": "Snowflake is a cloud data platform that provides data warehousing, data lake, data engineering, data science, and secure data sharing capabilities, accessible through various APIs.",
+    "authMethods": [
+      "OAuth2",
+      "API Key",
+      "Token",
+      "Basic",
+      "Other"
+    ],
+    "selfServe": true,
+    "gateType": "paid plan required",
+    "apiSurface": "Extensive APIs including SQL API, REST APIs, Snowpark API, and connectors for various programming languages and tools, allowing comprehensive data operations and platform management.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://docs.snowflake.com",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:03.608Z"
+  },
+  {
+    "id": 68,
+    "name": "MongoDB Atlas",
+    "hint": "mongodb.com/docs/atlas/api",
+    "category": "Developer, Infra and Data platforms",
+    "oneLiner": "MongoDB Atlas is a global cloud database service for modern applications, providing a fully managed cloud database.",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API for managing all MongoDB Atlas components, including clusters, projects, organizations, and access. It is broad and comprehensive.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://www.mongodb.com/docs/atlas/api",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:55.447Z"
+  },
+  {
+    "id": 69,
+    "name": "Datadog",
+    "hint": "docs.datadoghq.com/api",
+    "category": "Developer, Infra and Data platforms",
+    "oneLiner": "Datadog is a monitoring and security platform for cloud applications, offering observability for infrastructure, applications, and logs.",
+    "authMethods": [
+      "API Key",
+      "Token"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API, very broad, covering metrics, events, monitors, dashboards, and integrations for comprehensive platform management.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://docs.datadoghq.com/api",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:55.448Z"
+  },
+  {
+    "id": 70,
+    "name": "Sentry",
+    "hint": "docs.sentry.io/api",
+    "category": "Developer, Infra and Data platforms",
+    "oneLiner": "Sentry is an error monitoring and performance monitoring platform that helps developers identify and fix issues in real-time across applications.",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API, broad, for managing projects, events, issues, releases, and user feedback within the Sentry platform.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://docs.sentry.io/api",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:55.449Z"
+  },
+  {
+    "id": 71,
+    "name": "Notion",
+    "hint": "developers.notion.com",
+    "category": "Productivity and Project Management",
+    "oneLiner": "Notion is a workspace that combines notes, docs, project management, and wikis, allowing users to create flexible and powerful tools.",
+    "authMethods": [
+      "OAuth2",
+      "API Key",
+      "Token"
+    ],
+    "selfServe": true,
+    "gateType": "free self-serve",
+    "apiSurface": "REST API, allowing to read, create, and update nearly everything in a workspace—pages, databases, users, and comments.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developers.notion.com",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:55.449Z"
+  },
+  {
+    "id": 72,
+    "name": "Airtable",
+    "hint": "airtable.com/developers",
+    "category": "Productivity and Project Management",
+    "oneLiner": "Airtable is a low-code platform for building collaborative apps, blending spreadsheet simplicity with database power.",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API for CRUD operations on records and a Metadata API for fetching table schemas, enabling comprehensive base management.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://airtable.com/developers",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:55.449Z"
+  },
+  {
+    "id": 73,
+    "name": "Linear",
+    "hint": "developers.linear.app",
+    "category": "Productivity and Project Management",
+    "oneLiner": "Linear is a fast and efficient issue tracking and project management tool designed for modern software teams.",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "GraphQL API, offering full support for querying and mutating all entities like issues, projects, teams, and users.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developers.linear.app",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:55.450Z"
+  },
+  {
+    "id": 74,
+    "name": "Jira",
+    "hint": "developer.atlassian.com",
+    "category": "Productivity and Project Management",
+    "oneLiner": "Jira is a project tracking software for agile teams, used for issue tracking, bug tracking, and project management.",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API, very broad, covering issues, projects, users, workflows, and administration for extensive customization and automation.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developer.atlassian.com",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:55.450Z"
+  },
+  {
+    "id": 75,
+    "name": "Asana",
+    "hint": "developers.asana.com",
+    "category": "Productivity and Project Management",
+    "oneLiner": "Asana is a work management platform for teams to organize, track, and manage their work and projects.",
+    "authMethods": [
+      "OAuth2",
+      "API Key",
+      "Other"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API, broad, for managing tasks, projects, workspaces, users, and portfolios.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developers.asana.com",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:55.450Z"
+  },
+  {
+    "id": 76,
+    "name": "Monday.com",
+    "hint": "developer.monday.com",
+    "category": "Productivity and Project Management",
+    "oneLiner": "Monday.com is a work operating system (Work OS) that helps teams manage projects, workflows, and collaborate effectively.",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "GraphQL API, broad, allowing interaction with boards, items, users, and other platform features.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developer.monday.com",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:55.451Z"
+  },
+  {
+    "id": 77,
+    "name": "ClickUp",
+    "hint": "clickup.com/api",
+    "category": "Productivity and Project Management",
+    "oneLiner": "ClickUp is an all-in-one productivity platform for managing tasks, projects, and teams, aiming to replace multiple work apps.",
+    "authMethods": [
+      "OAuth2",
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API (v2), broad, covering spaces, folders, lists, tasks, docs, comments, and messages, with full user lifecycle management.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://clickup.com/api",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:07:55.451Z"
+  },
+  {
+    "id": 78,
+    "name": "Coda",
+    "hint": "coda.io/developers",
+    "category": "Productivity and Project Management",
+    "oneLiner": "Coda is an all-in-one document platform that blends the flexibility of docs, spreadsheets, and apps, allowing programmatic interaction with docs, tables, and rows via its API.",
+    "authMethods": [
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "RESTful API for managing docs, pages, tables, rows, formulas, and controls, with an additional Admin API for enterprise features.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://coda.io/developers/apis/v1",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:08:10.918Z"
+  },
+  {
+    "id": 79,
+    "name": "Smartsheet",
+    "hint": "smartsheet.com/developers",
+    "category": "Productivity and Project Management",
+    "error": "Missing from batch response",
+    "researchedAt": "2026-07-09T07:08:10.918Z"
+  },
+  {
+    "id": 80,
+    "name": "Harvest",
+    "hint": "harvestapp.com (help.getharvest.com/api-v2)",
+    "category": "Productivity and Project Management",
+    "error": "Missing from batch response",
+    "researchedAt": "2026-07-09T07:08:10.918Z"
+  },
+  {
+    "id": 81,
+    "name": "Stripe",
+    "hint": "stripe.com/docs/api",
+    "category": "Finance and Fintech",
+    "error": "Missing from batch response",
+    "researchedAt": "2026-07-09T07:08:10.919Z"
+  },
+  {
+    "id": 82,
+    "name": "Plaid",
+    "hint": "plaid.com/docs",
+    "category": "Finance and Fintech",
+    "error": "Missing from batch response",
+    "researchedAt": "2026-07-09T07:08:10.919Z"
+  },
+  {
+    "id": 83,
+    "name": "Binance",
+    "hint": "binance-docs.github.io",
+    "category": "Finance and Fintech",
+    "error": "Missing from batch response",
+    "researchedAt": "2026-07-09T07:08:10.919Z"
+  },
+  {
+    "id": 84,
+    "name": "Paygent Connect",
+    "hint": "paygent (NMI-powered)",
+    "category": "Finance and Fintech",
+    "error": "Missing from batch response",
+    "researchedAt": "2026-07-09T07:08:10.919Z"
+  },
+  {
+    "id": 85,
+    "name": "iPayX",
+    "hint": "ipayx.ai/docs",
+    "category": "Finance and Fintech",
+    "error": "Missing from batch response",
+    "researchedAt": "2026-07-09T07:08:10.919Z"
+  },
+  {
+    "id": 86,
+    "name": "QuickBooks",
+    "hint": "developer.intuit.com",
+    "category": "Finance and Fintech",
+    "error": "Missing from batch response",
+    "researchedAt": "2026-07-09T07:08:10.919Z"
+  },
+  {
+    "id": 87,
+    "name": "Xero",
+    "hint": "developer.xero.com",
+    "category": "Finance and Fintech",
+    "error": "Missing from batch response",
+    "researchedAt": "2026-07-09T07:08:10.920Z"
+  },
+  {
+    "id": 88,
+    "name": "Brex",
+    "hint": "developer.brex.com",
+    "category": "Finance and Fintech",
+    "oneLiner": "Brex provides a financial platform for businesses, offering corporate cards, business banking, and expense management, with an API for automation of payments, reporting, and user/card management.",
+    "authMethods": [
+      "OAuth2",
+      "API Key",
+      "Basic"
+    ],
+    "selfServe": true,
+    "gateType": "paid plan required",
+    "apiSurface": "REST API with numerous endpoints for accounting, budgets, onboarding, payments, team, transactions, and webhooks, covering core financial and account management functions.",
+    "mcpExists": false,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://developer.brex.com",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:08:59.788Z"
+  },
+  {
+    "id": 89,
+    "name": "Ramp",
+    "hint": "docs.ramp.com",
+    "category": "Finance and Fintech",
+    "oneLiner": "Ramp offers a developer API to programmatically access financial data, automate card issuing, and integrate reporting for businesses.",
+    "authMethods": [
+      "Client Credentials",
+      "HTTP Basic Auth",
+      "OAuth2"
+    ],
+    "selfServe": true,
+    "gateType": "admin approval required",
+    "apiSurface": "Comprehensive REST API covering numerous domains like Accounting, Applications, Audit Logs, Authorization, Banking, Bills, Cards, and Users.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://docs.ramp.com",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:08:59.788Z"
+  },
+  {
+    "id": 90,
+    "name": "PitchBook",
+    "hint": "pitchbook.com (research API)",
+    "category": "Finance and Fintech",
+    "oneLiner": "PitchBook provides access to extensive private market data on companies, deals, people, and investors through its API for CRM enrichment and ad-hoc research.",
+    "authMethods": [
+      "API Key"
+    ],
+    "selfServe": false,
+    "gateType": "partner/contact-sales gated",
+    "apiSurface": "Broad RESTful API (v2) providing access to a wide range of data points including financing details, deal stock information, and AI-powered VC exit predictor data, across various entities.",
+    "mcpExists": false,
+    "verdict": "possible with workaround",
+    "blocker": "API access is gated by sales/account manager and requires purchasing credits.",
+    "evidenceUrl": "https://api.pitchbook.com",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:08:59.789Z"
+  },
+  {
+    "id": 91,
+    "name": "NotebookLM",
+    "hint": "cloud.google.com/gemini (Enterprise API)",
+    "category": "AI, Research and Media-native",
+    "oneLiner": "NotebookLM Enterprise is an AI-powered research assistant that helps individuals and teams organize, summarize, and extract information from curated documents and sources.",
+    "authMethods": [
+      "Other"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "No direct standalone API; functionalities are accessible programmatically as a data source via the broader Gemini Enterprise API, which offers comprehensive information retrieval, multi-modal content generation, and autonomous AI agent orchestration.",
+    "mcpExists": true,
+    "verdict": "possible with workaround",
+    "blocker": "No direct, standalone API for NotebookLM; instead, it is integrated into the Gemini Enterprise platform.",
+    "evidenceUrl": "https://cloud.google.com/gemini",
+    "confidence": "medium",
+    "researchedAt": "2026-07-09T07:08:59.789Z"
+  },
+  {
+    "id": 92,
+    "name": "Otter AI",
+    "hint": "help.otter.ai (MCP server)",
+    "category": "AI, Research and Media-native",
+    "oneLiner": "Otter.ai is an AI-powered meeting assistant that records, transcribes, and summarizes conversations, now functioning as both an MCP client and server for AI applications.",
+    "authMethods": [
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API with endpoints for account & usage, projects, experiments, and MCP integration, enabling programmatic management of API keys and access to meeting results.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://help.otter.ai",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:08:59.789Z"
+  },
+  {
+    "id": 93,
+    "name": "Fathom",
+    "hint": "fathom.video",
+    "category": "AI, Research and Media-native",
+    "oneLiner": "Fathom is an AI-powered meeting assistant that records, transcribes, and summarizes video calls, offering a public API for developers to build workflows and integrations.",
+    "authMethods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "selfServe": true,
+    "gateType": "free self-serve",
+    "apiSurface": "RESTful HTTP API and client SDKs (Typescript, Python) with modules to retrieve summaries, transcripts, and list recordings and team members.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://fathom.video",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:08:59.790Z"
+  },
+  {
+    "id": 94,
+    "name": "Consensus",
+    "hint": "consensus.app (OAuth requested)",
+    "category": "AI, Research and Media-native",
+    "oneLiner": "Consensus is a platform that allows users to search, synthesize, and build structured research outputs from over 220M+ peer-reviewed papers, with an API and MCP for AI assistants.",
+    "authMethods": [
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "paid plan required",
+    "apiSurface": "REST API primarily focused on searching peer-reviewed papers and accessing paper metadata, with an OpenAPI index available for AI agents.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://consensus.app",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:08:59.790Z"
+  },
+  {
+    "id": 95,
+    "name": "Reducto",
+    "hint": "reducto.ai (document parsing)",
+    "category": "AI, Research and Media-native",
+    "oneLiner": "Reducto provides an agentic document platform with a Parse API that converts complex, messy business documents into structured, LLM-ready JSON data using layout-aware OCR and document intelligence.",
+    "authMethods": [
+      "API Key"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API with a primary 'Parse' endpoint for document processing (OCR, layout detection, table reconstruction, chunking) and other capabilities like /extract, /split, /classify, /edit.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://reducto.ai/docs/api/quickstart",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:08:59.790Z"
+  },
+  {
+    "id": 96,
+    "name": "Devin",
+    "hint": "docs.devin.ai (MCP)",
+    "category": "AI, Research and Media-native",
+    "oneLiner": "Devin is an AI code assistant that allows integration into applications, automation of workflows, and building of powerful tools, with capabilities like session management, knowledge, playbooks, and integrations.",
+    "authMethods": [
+      "API Key",
+      "Token"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "REST API (v3) comprising an Organization API (for sessions, knowledge, playbooks, secrets) and an Enterprise API (for cross-organization management, analytics, audit logs, user management, billing, and infrastructure).",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://docs.devin.ai/api-overview",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:08:59.791Z"
+  },
+  {
+    "id": 97,
+    "name": "higgsfield",
+    "hint": "higgsfield.ai/cli (content suite)",
+    "category": "AI, Research and Media-native",
+    "oneLiner": "Higgsfield AI is a video generation platform that enables users to generate images, videos, 3D assets, and audio from the terminal using its CLI, and connect AI agents for content automation.",
+    "authMethods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "selfServe": true,
+    "gateType": "paid plan required",
+    "apiSurface": "Primarily through a Command Line Interface (CLI) for generating images, videos, and other assets, also supporting an SDK for building integrated apps.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://higgsfield.ai/cli",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:08:59.791Z"
+  },
+  {
+    "id": 98,
+    "name": "Mermaid CLI",
+    "hint": "github.com/mermaid-js/mermaid-cli",
+    "category": "AI, Research and Media-native",
+    "oneLiner": "Mermaid CLI is a command-line interface tool that converts Mermaid diagram definition files into various image formats like SVG, PNG, and PDF, and can also transform markdown files containing Mermaid diagrams.",
+    "authMethods": [
+      "None"
+    ],
+    "selfServe": true,
+    "gateType": "free self-serve",
+    "apiSurface": "Primarily a command-line interface (`mmdc`) with various options for input files, output formats, themes, and styling. It also offers programmatic interfaces in Node.js and a Python library wrapper for diagram generation.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://github.com/mermaid-js/mermaid-cli",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:09:27.558Z"
+  },
+  {
+    "id": 99,
+    "name": "YouTube Transcript",
+    "hint": "transcriptapi.com",
+    "category": "AI, Research and Media-native",
+    "oneLiner": "TranscriptAPI is a managed REST API that extracts transcripts and other data, such as search results and channel/playlist information, from YouTube videos, providing structured JSON output.",
+    "authMethods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "selfServe": true,
+    "gateType": "free tier + paid upgrade",
+    "apiSurface": "A REST API with multiple endpoints for extracting video transcripts, video information, searching YouTube videos, listing channel videos, searching within channels, and accessing playlist contents, returning data in structured JSON.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://transcriptapi.com/api-reference",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:09:27.558Z"
+  },
+  {
+    "id": 100,
+    "name": "Grain",
+    "hint": "grain.com (meeting notes)",
+    "category": "AI, Research and Media-native",
+    "oneLiner": "Grain is an AI notetaker and conversation intelligence platform that records, transcribes, and enriches meetings, offering an API for programmatic access to meeting data, including recordings, transcripts, and AI-generated notes.",
+    "authMethods": [
+      "API Key",
+      "OAuth2"
+    ],
+    "selfServe": false,
+    "gateType": "paid plan required",
+    "apiSurface": "A REST API enabling developers to read meeting data (recordings, transcripts, AI notes, participants), manage recordings (upload, update metadata, add/remove tags, control sharing), and receive real-time events via webhooks.",
+    "mcpExists": true,
+    "verdict": "ready today",
+    "blocker": null,
+    "evidenceUrl": "https://help.grain.com/en/articles/9355447-grain-api",
+    "confidence": "high",
+    "researchedAt": "2026-07-09T07:09:27.558Z"
+  }
+]

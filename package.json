@@ -1,0 +1,17 @@
+{
+  "name": "composio-research-agent",
+  "version": "1.0.0",
+  "description": "Research agent for Composio AI Product Ops take-home assignment",
+  "type": "module",
+  "scripts": {
+    "test": "node test-connection.js",
+    "research": "node research-agent.js",
+    "verify": "node verify-agent.js",
+    "synthesize": "node synthesize.js"
+  },
+  "dependencies": {
+    "@composio/core": "^0.13.1",
+    "@google/genai": "^2.10.0",
+    "dotenv": "^16.4.5"
+  }
+}
